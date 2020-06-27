@@ -1,0 +1,16 @@
+helm search hub <chart_name>
+helm search repo <chart_name>
+helm add repo
+helm repo update
+helm show values <chart_name>
+helm get values <chart_name>
+helm install <release_name> <chart_name>
+helm upgrade <release_name> <chart_name>
+helm rollback <release_name> <release_version>
+helm status <release_name>
+helm list
+helm list --all
+helm repo list
+helm create <chart_name>
+helm lint
+helm package

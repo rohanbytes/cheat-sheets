@@ -1,0 +1,6 @@
+Official Cheet Sheet - https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+
+kubectl config view
+kubectl config current-context
+kubectl config get-contexts
+kubectl config use-context <cluster_name>

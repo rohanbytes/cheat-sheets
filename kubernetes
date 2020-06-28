@@ -5,3 +5,4 @@ kubectl config current-context
 kubectl config get-contexts
 kubectl config use-context <cluster_name>
 kubectl create namespace <namespace_name>
+kubectl config set-context --current --namespace=<insert-namespace-name-here>

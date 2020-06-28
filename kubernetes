@@ -7,3 +7,9 @@ kubectl config use-context <cluster_name>
 kubectl create namespace <namespace_name>
 kubectl config set-context --current --namespace=<insert-namespace-name-here>
 kubectl logs my-pod
+
+To know max pods allowed on a node. Useful for debugging error with message 0/2 nodes are available: 2 Insufficient pods
+kubectl get nodes -o yaml | grep pods
+
+To get currently number of currently assigned pods
+kubectl get pods --all-namespaces | grep Running | wc -l

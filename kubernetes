@@ -4,3 +4,4 @@ kubectl config view
 kubectl config current-context
 kubectl config get-contexts
 kubectl config use-context <cluster_name>
+kubectl create namespace <namespace_name>

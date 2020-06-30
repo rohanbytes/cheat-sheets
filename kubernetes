@@ -13,3 +13,5 @@ kubectl get nodes -o yaml | grep pods
 
 To get currently number of currently assigned pods
 kubectl get pods --all-namespaces | grep Running | wc -l
+
+kubectl run -i --tty busybox --image=busybox -- sh
